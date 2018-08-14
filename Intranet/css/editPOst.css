@@ -1,0 +1,66 @@
+#resultado img{
+    width: 50px;
+}
+.fa{
+    cursor: pointer;
+    font-size: 2em;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-file-image-o{
+    color: green;
+}
+.controles .dropdown{
+    display: inline-block;
+}
+
+
+/******************************************************************************************************/
+
+#dropIMG{
+    width: 50% !important;
+}
+
+.modal-body #file-input{
+    display: none;
+}
+
+.modal-body>p:first-child{
+    text-align: center;
+}
+
+.modal-body>p>#upload-progress{
+    width: 100%;
+}
+
+.modal-body > p > label[for='file-input']{
+
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.fa-plus{
+    font-size: 1em;
+    font-weight: normal;
+}
+
+.modal-body >p > label[for='Descripcion']{
+    width: 100%;
+}
+
+/******************************************************************************************************/
+
+
+.imgs>div>div{
+    max-height: 100px;
+    overflow: hidden;
+}
+.imgs>div>p{
+    width: 100%;
+}
+
+.imgs img{
+    width: 100%;
+    height: auto;
+}

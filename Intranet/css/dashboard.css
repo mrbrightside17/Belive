@@ -1,0 +1,62 @@
+body{
+    background-color: black; /*#2f4050;*/
+}
+.Line{
+    margin-top: -20px;
+}
+
+.navbar-nav li{
+    font-weight: bold;
+   font-family: Bitter,Georgia,Times,"Times New Roman",serif;
+   font-size: 1.2em;
+}
+
+.col-sm-10{
+    background-color: white;
+}
+
+#side_menu a{
+    color: #9fb1c2;
+}
+
+#side_menu a:hover{
+    color: white;
+    background-color: #1ab394;
+    font-weight: bold;
+    display: block;
+}
+
+#side_menu .active a{
+    color: white;
+    background-color: #27AAE1;
+    font-weight: bold;
+}
+#logo img{
+    width: 90%;
+    margin: 0;
+}
+
+
+#footer{
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: #eee;
+    background-color: #211f22;
+    text-align: center;
+}
+.FieldInfo{
+    color: rgb(251,174,44);
+    font-family: Bitter,Georgia,"Times New Roman",Times, serif;
+    font-size: 1.2em;
+}
+/*****************************************************************************************************************************/
+
+
+
+
+.RES,
+.fix{
+    display: inline-block;
+    width: auto;
+}

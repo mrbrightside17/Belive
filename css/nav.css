@@ -1,0 +1,117 @@
+.navbar{
+    padding-top: 15px;
+
+}
+.logo, .logo a{
+    width: 100% !important;
+    display: block;
+    align-content:center;
+    text-align: center;
+}
+.logo img{
+    width: 15%;
+}
+
+
+.navbar-header > a > img{
+    width: 100px;
+}
+
+.navbar-nav li a {
+  color: black !important;
+  font-weight: bolder;
+}
+
+
+.navbar-nav #redes > a {
+  display: inline-block;
+}
+
+.navbar-form {
+  display: block;
+  position: relative;
+}
+.navbar-form #SerachButton{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+/*# sourceMappingURL=app.css.map */
+
+
+
+#footer{
+    padding: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: #eee;
+    background-color: #000;
+    text-align: center;
+}
+#footer .fLogo{
+    width: 100%;
+}
+
+#footer .fLogo> img{
+    width: 15%;
+    background-color: transparent;
+    margin: auto;
+}
+
+
+#fRedes{
+    margin-top: 25px;
+}
+
+#fRedes>a{
+    margin: 0px 5%;
+    font-size: 1.5em;
+    color: white;
+}
+
+
+
+
+
+
+progress {
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width:100%;
+    min-height: 1px;
+    height: 2px;
+    display: block;
+    /* Important Thing */
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+    border: none;
+    background-color: transparent;
+    z-index: 100000;
+}
+/* All good till now. Now we'll style the background */
+progress::-webkit-progress-bar {
+	background-color: white;
+}
+
+progress[value]::-moz-progress-bar{
+    background-color: black;
+}
+                /* Now the value part */
+progress::-webkit-progress-value {
+background-color: black;
+}
+progress[value]::-moz-progress-value {
+background-color: black;
+}

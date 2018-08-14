@@ -1,0 +1,292 @@
+.container{
+    padding-top: 150px;
+}
+
+.blogpost{
+    background-color: white;
+    overflow: hidden;
+}
+
+
+
+#heading{
+    font-family: Bitter,Georgia,"Times New Roman",Times, serif;
+    font-weight: bold;
+    color: black;
+}
+
+#heading:hover,
+.post:hover{
+    color: red;
+}
+
+#heading{
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    font-size: 2em;
+}
+.post{
+    color: black;
+}
+
+.caption{
+    padding: 0px !important;
+}
+
+#category{
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+
+
+
+
+.btn-info{
+    float: right;
+}
+
+.red{
+    color: black !important;
+
+}
+.red:hover{
+    text-decoration: none;
+}
+
+
+.red > div{
+    display: inline-block;
+    background-color: transparent;
+    width: 33px;
+    padding:  10px 0;
+    text-align: center;
+}
+
+#fb:hover > div{
+    color: gray;
+}
+
+
+#tw:hover > div{
+    color: gray;
+}
+
+
+#g:hover > div{
+    color: gray;
+}
+
+
+
+.blogpost{
+    margin-bottom: 20px;
+
+}
+.Post:hover{
+    text-decoration: none;
+}
+
+#trending{
+    background-color: white;
+    padding: 0px;
+}
+
+#trending>img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+#trending >div{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+#trending> div > div.trend{
+    padding: 10px 10% 5px;
+    text-align: center;
+}
+
+#trending> div > div.trend> a{
+    color: black;
+}
+#trending> div > div.trend>a:hover{
+    color: red;
+    text-decoration: none;
+}
+
+#trending .border{
+    width: 80%;
+    margin: auto;
+    border-bottom: 1.5px dashed;
+}
+
+
+
+#aside{
+    text-align: justify;
+    padding: 0px;
+    padding-left: 1.5%;
+    font-family: "Time News Roman";
+    height: auto;
+}
+
+#aside > div> a {
+    color: black;
+}
+#aside > div> a:hover{
+    text-decoration: none;
+    color: gray;
+}
+
+
+
+#aside > div> a > .cat{
+    color: red;
+    margin: 0;
+}
+/**********************         ROW2                   ***************/
+
+
+.row2 > div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.Post2{
+    margin: 20px !important;
+    color: black;
+}
+
+.Post2:hover{
+    color: red;
+    text-decoration: none;
+}
+
+.Post2>div{
+    padding: 0px;
+}
+
+.blogpost2 > div.caption{
+    color: yellow;
+}
+
+
+
+
+/************************************************************************/
+
+/* Row3*/
+
+.container-fluid{
+    padding: 0px;
+    max-height: 600px;
+    overflow: hidden;
+}
+
+.row3{
+    padding: 0px;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.row3 > div > img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    left: 0;
+}
+
+#mPost{
+    padding-top: 5%;
+    color: white;
+    height: 100%;
+    padding-bottom: 5%
+}
+
+#mPost > .bk{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    top: 0%;
+    left: 0;
+    z-index: -1;
+}
+
+#mPost > div.info3{
+    z-index: 200;
+}
+#mPost > div >p:first-child{
+    color: red;
+    font-size: 1.2em;
+
+}
+
+#mPost> div >h1{
+    margin: 0px;
+    background-color: transparent;
+    font-weight: bolder;
+    font-size: 3.5em;
+    opacity: 1;
+}
+
+#mPost> div >p:last-child{
+    padding: 5% 0;
+    font-size: 2em;
+}
+
+
+
+/**************          ROW4        ************************/
+
+
+.container2{
+    padding-top: 10%;
+}
+.row4{
+    background-color: white;
+    height: auto;
+    overflow: visible;
+}
+
+.row4 a{
+    color: black;
+}
+
+.row a:hover{
+    text-decoration: none;
+}
+
+
+.row4 .cat4{
+    height: auto;
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.row4 .cat4 >img{
+    width: 100%;
+}
+
+.row4 .post4>p:first-child{
+    color: red;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+
+.row4 .post4>p:last-child{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+
+
+
+
+/**/

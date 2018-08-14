@@ -1,0 +1,41 @@
+.container{
+    padding-top: 130px;
+}
+
+figure{
+    height: auto;
+    max-height: 180px;
+}
+
+.post{
+    margin-top: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+.post a{
+    color: black;
+}
+
+.post a:hover{
+    text-decoration: none;
+    color: #f55;
+}
+
+.cat{
+    color: red;
+}
+
+.blog>p{
+
+}
+
+
+.red{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+footer{
+    margin-top: 150px;
+}

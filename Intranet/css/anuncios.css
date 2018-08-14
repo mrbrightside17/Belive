@@ -1,0 +1,230 @@
+
+.preImage>figure{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.preImage>figure img{
+    width: 100%;
+    display: none;
+}
+
+
+
+
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.btn2 {
+  border: 2px solid #27AAE1;
+  color: #27AAE1;
+  background-color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.btn2>i,
+.btn2>p{
+    display: inline-block;
+}
+.btn2>p{
+    margin-left: 10px;
+}
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.upload-btn-wrapper input[type=file]:hover{
+    cursor: pointer;
+}
+form{
+    width: 100%;
+    text-align: center;
+}
+form #nombre{
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 0 5px;
+    height: 30px;
+    border-color: #27AAE1;
+}
+form #enlace{
+    width: 90%;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 0 5px;
+    height: 30px;
+    border-color: #27AAE1;
+}
+
+form>progress{
+    width: 100%;
+    height: 30px;
+    margin: 10px auto;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.table > tbody > tr > td{
+    vertical-align: middle;
+    width: 25%;
+}
+
+.table-responsive{
+    /*max-height: 700px;*/
+}
+
+.vistaPre{
+    width: 100%;
+}
+.vistaPre img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pestañas>div>div{
+    position: relative;
+}
+
+.pestañas>div>div>p{
+    display: inline-block;
+}
+
+.pestañas>div>div>p:last-child{
+    float:right;
+}
+
+.fila{
+    background-color: #ccc;
+}
+
+
+
+
+
+/*************************** MODAL *******************/
+
+
+
+.modal-title{
+    color: purple;
+    width: 100%;
+    text-align: center;
+}
+.separatorB{
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.modal-body #imgResult{
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.modal-body #imgResult>figure{
+    width: 100%;
+    text-align: center;
+}
+
+.modal-body #imgResult img{
+    width: 100%;
+
+}
+
+.modal-body #bannerOpciones{
+    width: 100%;
+    text-align: center;
+}
+
+.modal-body #bannerOpciones>select{
+    width: 100%;
+    margin: auto;
+}
+
+
+/**/
+.modal-body #imglatResult{
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.modal-body #imglatResult>figure{
+    width: 100%;
+    text-align: center;
+}
+
+.modal-body #imglatResult img{
+    width: 100%;
+
+}
+
+.modal-body #bannerOpciones{
+    width: 100%;
+    text-align: center;
+}
+
+.modal-body #bannerOpciones>select{
+    width: 100%;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+.separatorBanner figure{
+    width: 100%;
+    max-height: none;
+    margin: 20px auto;
+}
+
+.separatorBanner figure img{
+    width: 100%;
+}
+
+.separatorBanner label{
+    width: 19%;
+}
+.separatorBanner input{
+    width: 80%;
+    border-radius: 20px;
+    padding-left: 10px;
+}

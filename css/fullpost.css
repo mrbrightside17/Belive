@@ -1,0 +1,128 @@
+.container{
+    padding-top: 150px;
+}
+
+.blogpost{
+    background-color: white;
+    overflow: hidden;
+}
+
+.thumbnail{
+    border: none;
+}
+
+#heading{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-weight: normal;
+    font-size: 3.5em;
+}
+
+#heading:hover,
+.post:hover{
+    color: red;
+}
+
+
+
+.post{
+    color: black;
+}
+
+.Post:hover{
+    text-decoration: none;
+}
+
+
+.caption{
+    padding: 0px !important;
+}
+
+#category{
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+
+.btn-info{
+    float: right;
+}
+
+.red{
+    color: black !important;
+
+}
+.red:hover{
+    text-decoration: none;
+}
+
+
+.red > div{
+    display: inline-block;
+    background-color: transparent;
+    width: 33px;
+    padding:  10px 0;
+    text-align: center;
+}
+
+#fb:hover > div{
+    background-color: black;
+    color: white;
+}
+
+
+#tw:hover > div{
+    background-color: black;
+    color: white;
+}
+
+
+#g:hover > div{
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+.redes2{
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.redes2>a{
+    padding: 10px 40px;
+}
+
+.col-md-3 img{
+width:100%;
+height: auto;
+max-height: 180px;
+}
+
+.cate{
+color: red;
+font-weight:bold;
+}
+
+
+.name{
+color:black;
+font-weight:bold;
+}
+
+a:hover{
+text-decoration: none;
+}
+
+
+/**/
